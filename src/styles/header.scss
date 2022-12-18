@@ -1,0 +1,141 @@
+.netflix-logo {
+    height: 3.5rem;
+    width: 11rem;
+}
+
+.lang-select {
+    font-size: 0.875rem;
+    line-height: 1.3em;
+    border: 1px solid white;
+    border-radius: 0.1em;
+    padding: 0 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    margin: 0 3.5rem;
+  
+    div {
+      display: flex;
+    }
+  }
+
+  .signin-btn {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    height: 19px;
+    margin-left: 40px;
+    background: #e50914;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 125px 0;
+    color: white;
+    
+  }
+  .showcase-title {
+    margin-bottom: 0rem;
+    max-width: 800px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .showcase-sub-title {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .header-container {
+    width: 100%;
+    height: 80vh;
+    line-height: 1.1;
+    background: url(../assets/background.jpg) no-repeat center center/cover;
+  }
+
+  .header-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom: 8px solid #222222;
+    box-shadow: inset 0 75px 250px #000, inset -0 -70px 250px #000;
+  }
+
+
+  header,
+.showcase-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+
+.email-form {
+  margin: 1rem;
+}
+.email-form .get-started {
+  padding-top: 1rem;
+  display: flex;
+  height: 80%;
+}
+
+.email-form .get-started > input {
+  border-radius: 2px 0 0 2px;
+  border: 1px solid #333;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  outline: none;
+  flex: 1;
+}
+
+.email-form .btn-lg {
+  border-radius: 0 2px 2px 0;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  background: #e50914;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.btn-lg {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 30px;
+  margin: 0;
+  background: #e50914;
+  border-radius: 5px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.btn-lg:hover {
+  background: #fd1c27;
+}
+  
+.emailfont {
+  font-size: 1.2rem;
+}

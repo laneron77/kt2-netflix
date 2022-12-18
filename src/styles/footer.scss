@@ -1,0 +1,32 @@
+footer {
+    color: #757575;
+    margin: 3rem auto;
+    width: 70%;
+    font-size: 1rem;
+  }
+  
+  footer .links > * {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  footer p {
+    margin-bottom: 2rem;
+    margin-left: 10.5rem;
+  }
+  
+  footer .links ul {
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    grid-gap: 0.5rem;
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #757575;
+  }
+
+  .lang {
+    margin-left: 10.5rem;
+  }

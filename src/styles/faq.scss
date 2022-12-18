@@ -1,0 +1,46 @@
+.wrapper1 {
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-bottom: 8px solid #222222;
+}
+
+
+.accordion {
+    width: 800px;
+}
+
+.item {
+background: #303030;
+padding: 20px 30px;
+margin-top:10px;
+
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.2s cubic-bezier(0,1,0,1);
+    margin-top: 10px;
+}
+
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.2s cubic-bezier(1,0,1,0);
+    margin-top: 10px;
+}
+
+.emailfont {
+    text-align: center;
+}
